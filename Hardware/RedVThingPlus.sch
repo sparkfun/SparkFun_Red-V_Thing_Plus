@@ -15284,105 +15284,6 @@ We've spent an enormous amount of time creating and checking these footprints an
 <wire x1="5.104" y1="3.154" x2="5.104" y2="3.535" width="0.1" layer="51"/>
 <wire x1="5.104" y1="3.535" x2="4.723" y2="3.535" width="0.1" layer="51"/>
 </package>
-<package name="2X5-PTH-1.27MM-NO_SILK">
-<description>&lt;h3&gt;Plated Through Hole - 2x5 ARM Cortex Debug Connector (10-pin)&lt;/h3&gt;
-&lt;p&gt;tDoc (51) layer border represents maximum dimensions of plastic housing.&lt;/p&gt;
-&lt;p&gt;Specifications:
-&lt;ul&gt;&lt;li&gt;Pin count:10&lt;/li&gt;
-&lt;li&gt;Pin pitch:1.27mm&lt;/li&gt;
-&lt;/ul&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=”http://portal.fciconnect.com/Comergent//fci/drawing/20021111.pdf”&gt;Datasheet referenced for footprint&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Example device(s):
-&lt;ul&gt;&lt;li&gt;CONN_05x2&lt;/li&gt;
-&lt;/ul&gt;&lt;/p&gt;</description>
-<pad name="8" x="1.27" y="0.635" drill="0.508" diameter="1"/>
-<pad name="6" x="0" y="0.635" drill="0.508" diameter="1"/>
-<pad name="4" x="-1.27" y="0.635" drill="0.508" diameter="1"/>
-<pad name="2" x="-2.54" y="0.635" drill="0.508" diameter="1"/>
-<pad name="10" x="2.54" y="0.635" drill="0.508" diameter="1"/>
-<pad name="7" x="1.27" y="-0.635" drill="0.508" diameter="1"/>
-<pad name="5" x="0" y="-0.635" drill="0.508" diameter="1"/>
-<pad name="3" x="-1.27" y="-0.635" drill="0.508" diameter="1"/>
-<pad name="1" x="-2.54" y="-0.635" drill="0.508" diameter="1"/>
-<pad name="9" x="2.54" y="-0.635" drill="0.508" diameter="1"/>
-<wire x1="-3.403" y1="-1.021" x2="-3.403" y2="-0.259" width="0.254" layer="21"/>
-<wire x1="3.175" y1="1.715" x2="-3.175" y2="1.715" width="0.127" layer="51"/>
-<wire x1="-3.175" y1="1.715" x2="-3.175" y2="-1.715" width="0.127" layer="51"/>
-<wire x1="-3.175" y1="-1.715" x2="3.175" y2="-1.715" width="0.127" layer="51"/>
-<wire x1="3.175" y1="-1.715" x2="3.175" y2="1.715" width="0.127" layer="51"/>
-<text x="-1.5748" y="1.9304" size="0.6096" layer="25" font="vector" ratio="20">&gt;NAME</text>
-<text x="-1.8288" y="-2.4638" size="0.6096" layer="27" font="vector" ratio="20">&gt;VALUE</text>
-</package>
-<package name="2X5-PTH-1.27MM">
-<description>&lt;h3&gt;Plated Through Hole - 2x5 ARM Cortex Debug Connector (10-pin)&lt;/h3&gt;
-&lt;p&gt;tDoc (51) layer border represents maximum dimensions of plastic housing.&lt;/p&gt;
-&lt;p&gt;Specifications:
-&lt;ul&gt;&lt;li&gt;Pin count:10&lt;/li&gt;
-&lt;li&gt;Pin pitch:1.27mm&lt;/li&gt;
-&lt;/ul&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=”http://portal.fciconnect.com/Comergent//fci/drawing/20021111.pdf”&gt;Datasheet referenced for footprint&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Example device(s):
-&lt;ul&gt;&lt;li&gt;CONN_05x2&lt;/li&gt;
-&lt;/ul&gt;&lt;/p&gt;</description>
-<pad name="8" x="1.27" y="0.635" drill="0.508" diameter="1"/>
-<pad name="6" x="0" y="0.635" drill="0.508" diameter="1"/>
-<pad name="4" x="-1.27" y="0.635" drill="0.508" diameter="1"/>
-<pad name="2" x="-2.54" y="0.635" drill="0.508" diameter="1"/>
-<pad name="10" x="2.54" y="0.635" drill="0.508" diameter="1"/>
-<pad name="7" x="1.27" y="-0.635" drill="0.508" diameter="1"/>
-<pad name="5" x="0" y="-0.635" drill="0.508" diameter="1"/>
-<pad name="3" x="-1.27" y="-0.635" drill="0.508" diameter="1"/>
-<pad name="1" x="-2.54" y="-0.635" drill="0.508" diameter="1"/>
-<pad name="9" x="2.54" y="-0.635" drill="0.508" diameter="1"/>
-<wire x1="-3.403" y1="-1.021" x2="-3.403" y2="-0.259" width="0.254" layer="21"/>
-<wire x1="3.175" y1="1.715" x2="-3.175" y2="1.715" width="0.127" layer="21"/>
-<wire x1="-3.175" y1="1.715" x2="-3.175" y2="-1.715" width="0.127" layer="21"/>
-<wire x1="-3.175" y1="-1.715" x2="3.175" y2="-1.715" width="0.127" layer="21"/>
-<wire x1="3.175" y1="-1.715" x2="3.175" y2="1.715" width="0.127" layer="21"/>
-<text x="-1.5748" y="1.9304" size="0.6096" layer="25" font="vector" ratio="20">&gt;NAME</text>
-<text x="-1.8288" y="-2.4638" size="0.6096" layer="27" font="vector" ratio="20">&gt;VALUE</text>
-</package>
-<package name="2X5-SMD-1.27MM">
-<description>Shrouded SMD connector for JTAG and SWD applications.</description>
-<wire x1="-4.765" y1="-2.65" x2="-4.765" y2="2.65" width="0.127" layer="51"/>
-<wire x1="-4.765" y1="2.65" x2="4.765" y2="2.65" width="0.127" layer="51"/>
-<wire x1="4.765" y1="-2.65" x2="-4.765" y2="-2.65" width="0.127" layer="51"/>
-<smd name="6" x="0" y="-1.95" dx="0.76" dy="2.4" layer="1" rot="R180"/>
-<smd name="8" x="-1.27" y="-1.95" dx="0.76" dy="2.4" layer="1" rot="R180"/>
-<smd name="10" x="-2.54" y="-1.95" dx="0.76" dy="2.4" layer="1" rot="R180"/>
-<smd name="4" x="1.27" y="-1.95" dx="0.76" dy="2.4" layer="1" rot="R180"/>
-<smd name="2" x="2.54" y="-1.95" dx="0.76" dy="2.4" layer="1" rot="R180"/>
-<smd name="1" x="2.54" y="1.95" dx="0.76" dy="2.4" layer="1" rot="R180"/>
-<smd name="3" x="1.27" y="1.95" dx="0.76" dy="2.4" layer="1" rot="R180"/>
-<smd name="5" x="0" y="1.95" dx="0.76" dy="2.4" layer="1" rot="R180"/>
-<smd name="7" x="-1.27" y="1.95" dx="0.76" dy="2.4" layer="1" rot="R180"/>
-<smd name="9" x="-2.54" y="1.95" dx="0.76" dy="2.4" layer="1" rot="R180"/>
-<wire x1="4.765" y1="2.65" x2="4.765" y2="-2.65" width="0.127" layer="51"/>
-<rectangle x1="-1.0575" y1="-1.9625" x2="1.0575" y2="-1.5525" layer="51" rot="R270"/>
-<wire x1="3.495" y1="-1.65" x2="-3.495" y2="-1.65" width="0.1524" layer="51"/>
-<wire x1="-3.495" y1="-1.65" x2="-3.495" y2="1.65" width="0.1524" layer="51"/>
-<wire x1="-3.495" y1="1.65" x2="3.495" y2="1.65" width="0.1524" layer="51"/>
-<wire x1="3.495" y1="1.65" x2="3.495" y2="-1.65" width="0.1524" layer="51"/>
-<rectangle x1="-2.3275" y1="-1.9625" x2="-0.2125" y2="-1.5525" layer="51" rot="R270"/>
-<rectangle x1="-3.5975" y1="-1.9625" x2="-1.4825" y2="-1.5525" layer="51" rot="R270"/>
-<rectangle x1="0.2125" y1="-1.9625" x2="2.3275" y2="-1.5525" layer="51" rot="R270"/>
-<rectangle x1="1.4825" y1="-1.9625" x2="3.5975" y2="-1.5525" layer="51" rot="R270"/>
-<rectangle x1="1.4825" y1="1.5525" x2="3.5975" y2="1.9625" layer="51" rot="R90"/>
-<rectangle x1="0.2125" y1="1.5525" x2="2.3275" y2="1.9625" layer="51" rot="R90"/>
-<rectangle x1="-1.0575" y1="1.5525" x2="1.0575" y2="1.9625" layer="51" rot="R90"/>
-<rectangle x1="-2.3275" y1="1.5525" x2="-0.2125" y2="1.9625" layer="51" rot="R90"/>
-<rectangle x1="-3.5975" y1="1.5525" x2="-1.4825" y2="1.9625" layer="51" rot="R90"/>
-<wire x1="-3.2" y1="2.7" x2="-4.8" y2="2.7" width="0.2032" layer="21"/>
-<wire x1="-4.8" y1="2.7" x2="-4.8" y2="-2.7" width="0.2032" layer="21"/>
-<wire x1="-4.8" y1="-2.7" x2="-3.2" y2="-2.7" width="0.2032" layer="21"/>
-<wire x1="3.2" y1="-2.7" x2="4.8" y2="-2.7" width="0.2032" layer="21"/>
-<wire x1="4.8" y1="-2.7" x2="4.8" y2="2.7" width="0.2032" layer="21"/>
-<wire x1="4.8" y1="2.7" x2="3.2" y2="2.7" width="0.2032" layer="21"/>
-<wire x1="0.6" y1="2.9" x2="0.6" y2="3.4" width="0.2032" layer="21"/>
-<wire x1="0.6" y1="3.4" x2="-0.6" y2="3.4" width="0.2032" layer="21"/>
-<wire x1="-0.6" y1="3.4" x2="-0.6" y2="2.9" width="0.2032" layer="21"/>
-<circle x="3.6" y="3.1" radius="0.1" width="0.2032" layer="21"/>
-</package>
 <package name="USB-C-16P">
 <smd name="B6" x="0.75" y="0.154" dx="0.3" dy="1.016" layer="1"/>
 <smd name="A7" x="0.25" y="0.154" dx="0.3" dy="1.016" layer="1"/>
@@ -15545,76 +15446,6 @@ We've spent an enormous amount of time creating and checking these footprints an
 <vertex x="4.02" y="-0.365" curve="-180"/>
 <vertex x="4.62" y="-0.365"/>
 </polygon>
-</package>
-<package name="PAD.02X.02">
-<description>&lt;h3&gt;Electrically Conductive Pad 0.02" Square&lt;/h3&gt;
-Used as a test point connection for pogo pins or other debugging tools. 
-&lt;p&gt;Specifications:
-&lt;li&gt;Area: 0.02" x 0.02"&lt;/li&gt;
-&lt;/ul&gt;&lt;/p&gt;
-&lt;p&gt;Example device(s):
-&lt;ul&gt;&lt;li&gt;TEST_POINT&lt;/li&gt;
-&lt;/ul&gt;&lt;/p&gt;</description>
-<smd name="P$1" x="0" y="0" dx="0.508" dy="0.508" layer="1"/>
-</package>
-<package name="PAD.03X.03">
-<description>&lt;h3&gt;Electrically Conductive Pad 0.03" Circle&lt;/h3&gt;
-Used as a test point connection for pogo pins or other debugging tools. 
-&lt;p&gt;Specifications:
-&lt;li&gt;Area: 0.03" x 0.03"&lt;/li&gt;
-&lt;/ul&gt;&lt;/p&gt;
-&lt;p&gt;Example device(s):
-&lt;ul&gt;&lt;li&gt;TEST_POINT&lt;/li&gt;
-&lt;/ul&gt;&lt;/p&gt;</description>
-<smd name="P$1" x="0" y="0" dx="0.762" dy="0.762" layer="1" roundness="100" cream="no"/>
-</package>
-<package name="PAD.03X.05">
-<description>&lt;h3&gt;Electrically Conductive Pad 0.05" Circle&lt;/h3&gt;
-Used as a test point connection for pogo pins or other debugging tools. 
-&lt;p&gt;Specifications:
-&lt;li&gt;Area: 0.05" x 0.05"&lt;/li&gt;
-&lt;/ul&gt;&lt;/p&gt;
-&lt;p&gt;Example device(s):
-&lt;ul&gt;&lt;li&gt;TEST_POINT&lt;/li&gt;
-&lt;/ul&gt;&lt;/p&gt;</description>
-<smd name="P$1" x="0" y="0" dx="1.27" dy="1.27" layer="1" roundness="100" cream="no"/>
-</package>
-<package name="PAD.03X.04">
-<description>&lt;h3&gt;Electrically Conductive Pad 0.04" Circle&lt;/h3&gt;
-Used as a test point connection for pogo pins or other debugging tools. 
-&lt;p&gt;Specifications:
-&lt;li&gt;Area: 0.04" x 0.04"&lt;/li&gt;
-&lt;/ul&gt;&lt;/p&gt;
-&lt;p&gt;Example device(s):
-&lt;ul&gt;&lt;li&gt;TEST_POINT&lt;/li&gt;
-&lt;/ul&gt;&lt;/p&gt;</description>
-<smd name="P$1" x="0" y="0" dx="1.016" dy="1.016" layer="1" roundness="100" cream="no"/>
-</package>
-<package name="TP_15TH">
-<description>&lt;h3&gt;Electrically Conductive Via 0.015" Drill&lt;/h3&gt;
-Used as a test point connection for pogo pins or other debugging tools. 
-&lt;p&gt;Specifications:
-&lt;li&gt;Area:0.015"&lt;/li&gt;
-&lt;/ul&gt;&lt;/p&gt;
-&lt;p&gt;Example device(s):
-&lt;ul&gt;&lt;li&gt;TEST_POINT&lt;/li&gt;
-&lt;/ul&gt;&lt;/p&gt;</description>
-<pad name="P$1" x="0" y="0" drill="0.381" diameter="0.6096" stop="no"/>
-<circle x="0" y="0" radius="0.381" width="0" layer="30"/>
-</package>
-<package name="1X01_NO_SILK">
-<description>&lt;h3&gt;Plated Through Hole - No Silk Outline&lt;/h3&gt;
-&lt;p&gt;Specifications:
-&lt;ul&gt;&lt;li&gt;Pin count:1&lt;/li&gt;
-&lt;li&gt;Pin pitch:0.1"&lt;/li&gt;
-&lt;/ul&gt;&lt;/p&gt;
-&lt;p&gt;Example device(s):
-&lt;ul&gt;&lt;li&gt;CONN_01&lt;/li&gt;
-&lt;/ul&gt;&lt;/p&gt;</description>
-<pad name="1" x="0" y="0" drill="1.016" diameter="1.8796" rot="R90"/>
-<text x="-1.27" y="1.143" size="0.6096" layer="25" font="vector" ratio="20">&gt;NAME</text>
-<text x="-1.27" y="-1.778" size="0.6096" layer="27" font="vector" ratio="20">&gt;VALUE</text>
-<rectangle x1="-0.254" y1="-0.254" x2="0.254" y2="0.254" layer="51"/>
 </package>
 <package name="USB-C-16P-4LAYER-ISOLATED">
 <smd name="B6" x="0.75" y="0.154" dx="0.3" dy="1.016" layer="1"/>
@@ -17359,26 +17190,6 @@ Holes are offset from center 0.005", to hold pins in place while soldering.
 <text x="-4.572" y="-2.54" size="1.778" layer="94" font="vector" align="center-left">GND</text>
 <text x="-4.572" y="5.08" size="1.778" layer="94" font="vector" align="center-left">SCL</text>
 </symbol>
-<symbol name="CORTEX_DEBUG">
-<description>&lt;h3&gt;Cortex Debug Connector&lt;/h3&gt;
-&lt;p&gt;&lt;a href="http://infocenter.arm.com/help/topic/com.arm.doc.faqs/attached/13634/cortex_debug_connectors.pdf"&gt;Datasheet&lt;/a&gt;&lt;/p&gt;</description>
-<pin name="VCC" x="-15.24" y="5.08" length="short"/>
-<pin name="GND@3" x="-15.24" y="2.54" length="short"/>
-<pin name="GND@5" x="-15.24" y="0" length="short"/>
-<pin name="KEY" x="-15.24" y="-2.54" length="short"/>
-<pin name="GNDDTCT" x="-15.24" y="-5.08" length="short"/>
-<pin name="!RESET" x="15.24" y="-5.08" length="short" rot="R180"/>
-<pin name="NC/TDI" x="15.24" y="-2.54" length="short" rot="R180"/>
-<pin name="SWO/TDO" x="15.24" y="0" length="short" rot="R180"/>
-<pin name="SWDCLK/TCK" x="15.24" y="2.54" length="short" rot="R180"/>
-<pin name="SWDIO/TMS" x="15.24" y="5.08" length="short" rot="R180"/>
-<wire x1="-12.7" y1="-7.62" x2="-12.7" y2="7.62" width="0.254" layer="94"/>
-<wire x1="-12.7" y1="7.62" x2="12.7" y2="7.62" width="0.254" layer="94"/>
-<wire x1="12.7" y1="7.62" x2="12.7" y2="-7.62" width="0.254" layer="94"/>
-<wire x1="12.7" y1="-7.62" x2="-12.7" y2="-7.62" width="0.254" layer="94"/>
-<text x="-12.7" y="7.874" size="1.778" layer="95" font="vector">&gt;Name</text>
-<text x="-12.7" y="-9.906" size="1.778" layer="96" font="vector">&gt;Value</text>
-</symbol>
 <symbol name="USB-C-MINIMUM">
 <description>&lt;h3&gt;USB - C 16 Pin&lt;/h3&gt;
 Exposes the minimal pins needed to implement a USB 2.x legacy device.</description>
@@ -17396,13 +17207,6 @@ Exposes the minimal pins needed to implement a USB 2.x legacy device.</descripti
 <pin name="D-" x="12.7" y="2.54" length="short" rot="R180"/>
 <pin name="CC2" x="12.7" y="-2.54" length="short" rot="R180"/>
 <pin name="SHLD" x="12.7" y="-5.08" length="short" rot="R180"/>
-</symbol>
-<symbol name="TEST-POINT">
-<wire x1="2.54" y1="0" x2="0" y2="0" width="0.1524" layer="94"/>
-<wire x1="3.302" y1="0.762" x2="3.302" y2="-0.762" width="0.1524" layer="94" curve="180"/>
-<text x="-2.54" y="2.54" size="1.778" layer="95" font="vector">&gt;Name</text>
-<text x="-2.54" y="-2.54" size="1.778" layer="96" font="vector">&gt;Value</text>
-<pin name="1" x="0" y="0" visible="off" length="point" rot="R180"/>
 </symbol>
 <symbol name="AVR_SPI_PROGRAMMER_6">
 <description>&lt;h3&gt;AVR ISP 6 Pin&lt;/h3&gt;
@@ -17581,76 +17385,6 @@ We carry &lt;a href=”https://www.sparkfun.com/products/14204”&gt;200mm&lt;/a
 </device>
 </devices>
 </deviceset>
-<deviceset name="CORTEX_JTAG_DEBUG" prefix="J">
-<description>&lt;h3&gt;Cortex Debug Connector - 10 pin&lt;/h3&gt;
-&lt;p&gt;Supports JTAG debug, Serial Wire debug, and Serial Wire Viewer.
-PTH and SMD connector options available.&lt;/p&gt;
-&lt;p&gt; &lt;ul&gt;&lt;a href=”http://infocenter.arm.com/help/topic/com.arm.doc.faqs/attached/13634/cortex_debug_connectors.pdf”&gt;General Connector Information&lt;/a&gt;
-&lt;p&gt;&lt;b&gt; Products:&lt;/b&gt;
-&lt;ul&gt;&lt;li&gt;&lt;a href=”http://www.digikey.com/product-detail/en/cnc-tech/3220-10-0100-00/1175-1627-ND/3883661”&gt;PTH Connector&lt;/a&gt; -via Digi-Key&lt;/li&gt;
-&lt;li&gt;&lt;a href=”https://www.sparkfun.com/products/13229”&gt;SparkFun PSoc&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=”https://www.sparkfun.com/products/13810”&gt;SparkFun T&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/p&gt;</description>
-<gates>
-<gate name="J1" symbol="CORTEX_DEBUG" x="0" y="0"/>
-</gates>
-<devices>
-<device name="_PTH_NS" package="2X5-PTH-1.27MM-NO_SILK">
-<connects>
-<connect gate="J1" pin="!RESET" pad="10"/>
-<connect gate="J1" pin="GND@3" pad="3"/>
-<connect gate="J1" pin="GND@5" pad="5"/>
-<connect gate="J1" pin="GNDDTCT" pad="9"/>
-<connect gate="J1" pin="KEY" pad="7"/>
-<connect gate="J1" pin="NC/TDI" pad="8"/>
-<connect gate="J1" pin="SWDCLK/TCK" pad="4"/>
-<connect gate="J1" pin="SWDIO/TMS" pad="2"/>
-<connect gate="J1" pin="SWO/TDO" pad="6"/>
-<connect gate="J1" pin="VCC" pad="1"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="_PTH" package="2X5-PTH-1.27MM">
-<connects>
-<connect gate="J1" pin="!RESET" pad="10"/>
-<connect gate="J1" pin="GND@3" pad="3"/>
-<connect gate="J1" pin="GND@5" pad="5"/>
-<connect gate="J1" pin="GNDDTCT" pad="9"/>
-<connect gate="J1" pin="KEY" pad="7"/>
-<connect gate="J1" pin="NC/TDI" pad="8"/>
-<connect gate="J1" pin="SWDCLK/TCK" pad="4"/>
-<connect gate="J1" pin="SWDIO/TMS" pad="2"/>
-<connect gate="J1" pin="SWO/TDO" pad="6"/>
-<connect gate="J1" pin="VCC" pad="1"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="_SMD" package="2X5-SMD-1.27MM">
-<connects>
-<connect gate="J1" pin="!RESET" pad="10"/>
-<connect gate="J1" pin="GND@3" pad="3"/>
-<connect gate="J1" pin="GND@5" pad="5"/>
-<connect gate="J1" pin="GNDDTCT" pad="9"/>
-<connect gate="J1" pin="KEY" pad="7"/>
-<connect gate="J1" pin="NC/TDI" pad="8"/>
-<connect gate="J1" pin="SWDCLK/TCK" pad="4"/>
-<connect gate="J1" pin="SWDIO/TMS" pad="2"/>
-<connect gate="J1" pin="SWO/TDO" pad="6"/>
-<connect gate="J1" pin="VCC" pad="1"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="CONN-14503" constant="no"/>
-<attribute name="VALUE" value="JTAG" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="USB_C" prefix="J" uservalue="yes">
 <description>&lt;h3&gt;USB Type C 16Pin Connector&lt;/h3&gt;
 
@@ -17690,68 +17424,6 @@ Super Speed pins not available on the 16-pin purely SMD connector so this part i
 <technology name="">
 <attribute name="PROD_ID" value="CONN-14122" constant="no"/>
 </technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="TEST-POINT" prefix="TP">
-<description>&lt;h3&gt;SparkFun Test Points&lt;/h3&gt;
-&lt;p&gt;Bare copper test points for troubleshooting or In-Circuit-Testing. These are used by our Production team for verifying production board runs using pogo-pins on test beds.&lt;/p&gt;
-&lt;p&gt;&lt;b&gt;SparkFun Products:&lt;/b&gt;
-&lt;ul&gt;&lt;li&gt;&lt;a href=”https://www.sparkfun.com/products/13284”&gt;SparkFun LSM9DS1 Breakout&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=”https://www.sparkfun.com/products/13714”&gt;SparkFun PSOC&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/13879"&gt;SparkFun Load Cell Amplifier&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/p&gt;</description>
-<gates>
-<gate name="G$1" symbol="TEST-POINT" x="0" y="0"/>
-</gates>
-<devices>
-<device name="2" package="PAD.02X.02">
-<connects>
-<connect gate="G$1" pin="1" pad="P$1"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="3" package="PAD.03X.03">
-<connects>
-<connect gate="G$1" pin="1" pad="P$1"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="3X5" package="PAD.03X.05">
-<connects>
-<connect gate="G$1" pin="1" pad="P$1"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="3X4" package="PAD.03X.04">
-<connects>
-<connect gate="G$1" pin="1" pad="P$1"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="TP_15TH_THRU" package="TP_15TH">
-<connects>
-<connect gate="G$1" pin="1" pad="P$1"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="POGO_PTH" package="1X01_NO_SILK">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-</connects>
-<technologies>
-<technology name=""/>
 </technologies>
 </device>
 </devices>
@@ -23088,9 +22760,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="U$10" library="SparkFun-PowerSymbols" deviceset="5V" device=""/>
 <part name="GND17" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="U4" library="SparkFun-IC-Microcontroller" deviceset="SIFIVE_FE310" device="" value="FE310"/>
-<part name="J5" library="SparkFun-Connectors" deviceset="CORTEX_JTAG_DEBUG" device="_SMD" value="JTAG"/>
-<part name="GND1" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
-<part name="SUPPLY10" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
 <part name="SUPPLY11" library="SparkFun-PowerSymbols" deviceset="1.8V" device=""/>
 <part name="SUPPLY12" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
 <part name="C1" library="SparkFun-Capacitors" deviceset="10UF" device="-0603-6.3V-20%" value="10uF"/>
@@ -23139,12 +22808,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="R19" library="SparkFun-Resistors" deviceset="5.1KOHM" device="5.1KOHM-0603-1/10W-1%" value="5.1k"/>
 <part name="GND29" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="GND31" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
-<part name="TP1" library="SparkFun-Connectors" deviceset="TEST-POINT" device="3"/>
-<part name="TP2" library="SparkFun-Connectors" deviceset="TEST-POINT" device="3"/>
-<part name="TP3" library="SparkFun-Connectors" deviceset="TEST-POINT" device="3"/>
-<part name="TP4" library="SparkFun-Connectors" deviceset="TEST-POINT" device="3"/>
-<part name="TP6" library="SparkFun-Connectors" deviceset="TEST-POINT" device="3"/>
-<part name="TP7" library="SparkFun-Connectors" deviceset="TEST-POINT" device="3"/>
 <part name="U$44" library="SparkFun-IC-Comms" deviceset="MK22FN128VLH10" device="" value="MK22FN128VLH10"/>
 <part name="SUPPLY7" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
 <part name="C27" library="SparkFun-Capacitors" deviceset="0.1UF" device="-0603-25V-(+80/-20%)" value="0.1uF"/>
@@ -24230,7 +23893,7 @@ R_PROG=2k : I_CHG=500mA</text>
 <wire x1="137.16" y1="134.62" x2="0" y2="134.62" width="0.1524" layer="97" style="longdash"/>
 <text x="86.36" y="99.06" size="2.54" layer="94" font="vector">Qwiic</text>
 <text x="2.54" y="43.18" size="2.54" layer="94" font="vector">Headers</text>
-<text x="2.54" y="180.34" size="2.54" layer="94" font="vector">Programming Headers</text>
+<text x="2.54" y="180.34" size="2.54" layer="94" font="vector">Programming Headers &amp; Test Points</text>
 <text x="139.954" y="181.102" size="2.54" layer="94" font="vector">32MBit QSPI Flash</text>
 <text x="2.54" y="129.54" size="2.54" layer="94" font="vector">Capacitors</text>
 <text x="166.116" y="11.43" size="2.54" layer="94" font="vector">Andrew England</text>
@@ -24250,16 +23913,6 @@ R_PROG=2k : I_CHG=500mA</text>
 <attribute name="DRAWING_NAME" x="162.814" y="17.78" size="2.7432" layer="94" font="vector"/>
 <attribute name="DESIGNER" x="170.434" y="11.176" size="2.7432" layer="94" font="vector"/>
 <attribute name="REV" x="236.22" y="6.604" size="2.7432" layer="94" font="vector"/>
-</instance>
-<instance part="J5" gate="J1" x="30.48" y="157.48" smashed="yes">
-<attribute name="NAME" x="17.78" y="165.354" size="1.778" layer="95" font="vector"/>
-<attribute name="VALUE" x="17.78" y="147.574" size="1.778" layer="96" font="vector"/>
-</instance>
-<instance part="GND1" gate="1" x="12.7" y="147.32" smashed="yes">
-<attribute name="VALUE" x="12.7" y="147.066" size="1.778" layer="96" align="top-center"/>
-</instance>
-<instance part="SUPPLY10" gate="G$1" x="12.7" y="165.1" smashed="yes">
-<attribute name="VALUE" x="12.7" y="167.894" size="1.778" layer="96" align="bottom-center"/>
 </instance>
 <instance part="R1" gate="G$1" x="96.52" y="17.78" smashed="yes" rot="MR180">
 <attribute name="NAME" x="96.52" y="16.256" size="1.778" layer="95" font="vector" rot="MR180" align="bottom-center"/>
@@ -24321,24 +23974,6 @@ R_PROG=2k : I_CHG=500mA</text>
 <attribute name="NAME" x="97.536" y="86.36" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
 <attribute name="VALUE" x="100.584" y="86.36" size="1.778" layer="96" font="vector" rot="R90" align="top-center"/>
 </instance>
-<instance part="TP1" gate="G$1" x="48.26" y="165.1" smashed="yes" rot="R90">
-<attribute name="NAME" x="48.26" y="162.56" size="1.778" layer="95" font="vector" rot="R90"/>
-</instance>
-<instance part="TP2" gate="G$1" x="50.8" y="165.1" smashed="yes" rot="R90">
-<attribute name="NAME" x="50.8" y="162.56" size="1.778" layer="95" font="vector" rot="R90"/>
-</instance>
-<instance part="TP3" gate="G$1" x="53.34" y="165.1" smashed="yes" rot="R90">
-<attribute name="NAME" x="53.34" y="162.56" size="1.778" layer="95" font="vector" rot="R90"/>
-</instance>
-<instance part="TP4" gate="G$1" x="55.88" y="165.1" smashed="yes" rot="R90">
-<attribute name="NAME" x="55.88" y="162.56" size="1.778" layer="95" font="vector" rot="R90"/>
-</instance>
-<instance part="TP6" gate="G$1" x="10.16" y="162.56" smashed="yes" rot="R180">
-<attribute name="NAME" x="12.7" y="162.56" size="1.778" layer="95" font="vector" rot="R180"/>
-</instance>
-<instance part="TP7" gate="G$1" x="10.16" y="154.94" smashed="yes" rot="R180">
-<attribute name="NAME" x="12.7" y="154.94" size="1.778" layer="95" font="vector" rot="R180"/>
-</instance>
 <instance part="U$44" gate="G$1" x="193.04" y="83.82"/>
 <instance part="SUPPLY7" gate="G$1" x="162.56" y="134.62" smashed="yes">
 <attribute name="VALUE" x="162.56" y="137.414" size="1.778" layer="96" align="bottom-center"/>
@@ -24350,12 +23985,12 @@ R_PROG=2k : I_CHG=500mA</text>
 <instance part="GND32" gate="1" x="149.86" y="104.14" smashed="yes">
 <attribute name="VALUE" x="149.86" y="103.886" size="1.778" layer="96" align="top-center"/>
 </instance>
-<instance part="J1" gate="G$1" x="104.14" y="157.48" rot="MR0"/>
-<instance part="SUPPLY18" gate="G$1" x="91.44" y="162.56" smashed="yes">
-<attribute name="VALUE" x="91.44" y="165.354" size="1.778" layer="96" align="bottom-center"/>
+<instance part="J1" gate="G$1" x="68.58" y="160.02" rot="MR0"/>
+<instance part="SUPPLY18" gate="G$1" x="55.88" y="165.1" smashed="yes">
+<attribute name="VALUE" x="55.88" y="167.894" size="1.778" layer="96" align="bottom-center"/>
 </instance>
-<instance part="GND24" gate="1" x="91.44" y="144.78" smashed="yes">
-<attribute name="VALUE" x="91.44" y="144.526" size="1.778" layer="96" align="top-center"/>
+<instance part="GND24" gate="1" x="55.88" y="147.32" smashed="yes">
+<attribute name="VALUE" x="55.88" y="147.066" size="1.778" layer="96" align="top-center"/>
 </instance>
 <instance part="R20" gate="G$1" x="160.02" y="53.34" smashed="yes" rot="R90">
 <attribute name="NAME" x="158.496" y="53.34" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
@@ -24416,24 +24051,6 @@ R_PROG=2k : I_CHG=500mA</text>
 <nets>
 <net name="GND" class="0">
 <segment>
-<pinref part="J5" gate="J1" pin="GND@3"/>
-<wire x1="15.24" y1="160.02" x2="12.7" y2="160.02" width="0.1524" layer="91"/>
-<wire x1="12.7" y1="160.02" x2="12.7" y2="157.48" width="0.1524" layer="91"/>
-<wire x1="12.7" y1="157.48" x2="12.7" y2="154.94" width="0.1524" layer="91"/>
-<wire x1="12.7" y1="154.94" x2="12.7" y2="152.4" width="0.1524" layer="91"/>
-<wire x1="12.7" y1="152.4" x2="12.7" y2="149.86" width="0.1524" layer="91"/>
-<pinref part="J5" gate="J1" pin="GNDDTCT"/>
-<wire x1="15.24" y1="152.4" x2="12.7" y2="152.4" width="0.1524" layer="91"/>
-<junction x="12.7" y="152.4"/>
-<pinref part="J5" gate="J1" pin="GND@5"/>
-<wire x1="12.7" y1="157.48" x2="15.24" y2="157.48" width="0.1524" layer="91"/>
-<junction x="12.7" y="157.48"/>
-<pinref part="GND1" gate="1" pin="GND"/>
-<pinref part="TP7" gate="G$1" pin="1"/>
-<wire x1="12.7" y1="154.94" x2="10.16" y2="154.94" width="0.1524" layer="91"/>
-<junction x="12.7" y="154.94"/>
-</segment>
-<segment>
 <wire x1="111.76" y1="17.78" x2="114.3" y2="17.78" width="0.1524" layer="91"/>
 <wire x1="114.3" y1="17.78" x2="114.3" y2="15.24" width="0.1524" layer="91"/>
 <pinref part="GND3" gate="1" pin="GND"/>
@@ -24491,8 +24108,8 @@ R_PROG=2k : I_CHG=500mA</text>
 </segment>
 <segment>
 <pinref part="J1" gate="G$1" pin="6"/>
-<wire x1="93.98" y1="154.94" x2="91.44" y2="154.94" width="0.1524" layer="91"/>
-<wire x1="91.44" y1="154.94" x2="91.44" y2="147.32" width="0.1524" layer="91"/>
+<wire x1="58.42" y1="157.48" x2="55.88" y2="157.48" width="0.1524" layer="91"/>
+<wire x1="55.88" y1="157.48" x2="55.88" y2="149.86" width="0.1524" layer="91"/>
 <pinref part="GND24" gate="1" pin="GND"/>
 </segment>
 <segment>
@@ -24530,15 +24147,6 @@ R_PROG=2k : I_CHG=500mA</text>
 </segment>
 </net>
 <net name="3.3V" class="0">
-<segment>
-<pinref part="J5" gate="J1" pin="VCC"/>
-<wire x1="15.24" y1="162.56" x2="12.7" y2="162.56" width="0.1524" layer="91"/>
-<wire x1="12.7" y1="162.56" x2="12.7" y2="165.1" width="0.1524" layer="91"/>
-<pinref part="SUPPLY10" gate="G$1" pin="3.3V"/>
-<pinref part="TP6" gate="G$1" pin="1"/>
-<wire x1="12.7" y1="162.56" x2="10.16" y2="162.56" width="0.1524" layer="91"/>
-<junction x="12.7" y="162.56"/>
-</segment>
 <segment>
 <pinref part="U5" gate="G$1" pin="VCC"/>
 <wire x1="170.18" y1="170.18" x2="167.64" y2="170.18" width="0.1524" layer="91"/>
@@ -24626,8 +24234,8 @@ R_PROG=2k : I_CHG=500mA</text>
 </segment>
 <segment>
 <pinref part="J1" gate="G$1" pin="2"/>
-<wire x1="93.98" y1="160.02" x2="91.44" y2="160.02" width="0.1524" layer="91"/>
-<wire x1="91.44" y1="160.02" x2="91.44" y2="162.56" width="0.1524" layer="91"/>
+<wire x1="58.42" y1="162.56" x2="55.88" y2="162.56" width="0.1524" layer="91"/>
+<wire x1="55.88" y1="162.56" x2="55.88" y2="165.1" width="0.1524" layer="91"/>
 <pinref part="SUPPLY18" gate="G$1" pin="3.3V"/>
 </segment>
 <segment>
@@ -24651,30 +24259,12 @@ R_PROG=2k : I_CHG=500mA</text>
 </net>
 <net name="TDI" class="0">
 <segment>
-<pinref part="J5" gate="J1" pin="NC/TDI"/>
-<wire x1="45.72" y1="154.94" x2="55.88" y2="154.94" width="0.1524" layer="91"/>
-<label x="60.96" y="154.94" size="1.27" layer="95" font="vector" xref="yes"/>
-<pinref part="TP4" gate="G$1" pin="1"/>
-<wire x1="55.88" y1="154.94" x2="60.96" y2="154.94" width="0.1524" layer="91"/>
-<wire x1="55.88" y1="165.1" x2="55.88" y2="154.94" width="0.1524" layer="91"/>
-<junction x="55.88" y="154.94"/>
-</segment>
-<segment>
 <pinref part="U$44" gate="G$1" pin="PTD2/LLWU_P13"/>
 <wire x1="218.44" y1="66.04" x2="220.98" y2="66.04" width="0.1524" layer="91"/>
 <label x="220.98" y="66.04" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 </net>
 <net name="TMS" class="0">
-<segment>
-<pinref part="J5" gate="J1" pin="SWDIO/TMS"/>
-<wire x1="45.72" y1="162.56" x2="48.26" y2="162.56" width="0.1524" layer="91"/>
-<label x="60.96" y="162.56" size="1.27" layer="95" font="vector" xref="yes"/>
-<pinref part="TP1" gate="G$1" pin="1"/>
-<wire x1="48.26" y1="162.56" x2="60.96" y2="162.56" width="0.1524" layer="91"/>
-<wire x1="48.26" y1="165.1" x2="48.26" y2="162.56" width="0.1524" layer="91"/>
-<junction x="48.26" y="162.56"/>
-</segment>
 <segment>
 <pinref part="U$44" gate="G$1" pin="PTD6/LLWU_P15"/>
 <wire x1="218.44" y1="55.88" x2="220.98" y2="55.88" width="0.1524" layer="91"/>
@@ -24683,15 +24273,6 @@ R_PROG=2k : I_CHG=500mA</text>
 </net>
 <net name="TDO" class="0">
 <segment>
-<pinref part="J5" gate="J1" pin="SWO/TDO"/>
-<wire x1="45.72" y1="157.48" x2="53.34" y2="157.48" width="0.1524" layer="91"/>
-<label x="60.96" y="157.48" size="1.27" layer="95" font="vector" xref="yes"/>
-<pinref part="TP3" gate="G$1" pin="1"/>
-<wire x1="53.34" y1="157.48" x2="60.96" y2="157.48" width="0.1524" layer="91"/>
-<wire x1="53.34" y1="165.1" x2="53.34" y2="157.48" width="0.1524" layer="91"/>
-<junction x="53.34" y="157.48"/>
-</segment>
-<segment>
 <pinref part="U$44" gate="G$1" pin="PTE1/LLWU_P0"/>
 <wire x1="165.1" y1="104.14" x2="162.56" y2="104.14" width="0.1524" layer="91"/>
 <label x="162.56" y="104.14" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
@@ -24699,27 +24280,12 @@ R_PROG=2k : I_CHG=500mA</text>
 </net>
 <net name="TCK" class="0">
 <segment>
-<pinref part="J5" gate="J1" pin="SWDCLK/TCK"/>
-<wire x1="45.72" y1="160.02" x2="50.8" y2="160.02" width="0.1524" layer="91"/>
-<label x="60.96" y="160.02" size="1.27" layer="95" font="vector" xref="yes"/>
-<pinref part="TP2" gate="G$1" pin="1"/>
-<wire x1="50.8" y1="160.02" x2="60.96" y2="160.02" width="0.1524" layer="91"/>
-<wire x1="50.8" y1="165.1" x2="50.8" y2="160.02" width="0.1524" layer="91"/>
-<junction x="50.8" y="160.02"/>
-</segment>
-<segment>
 <pinref part="U$44" gate="G$1" pin="PTD5"/>
 <wire x1="218.44" y1="58.42" x2="220.98" y2="58.42" width="0.1524" layer="91"/>
 <label x="220.98" y="58.42" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 </net>
 <net name="!RESET" class="0">
-<segment>
-<pinref part="J5" gate="J1" pin="!RESET"/>
-<wire x1="45.72" y1="152.4" x2="58.42" y2="152.4" width="0.1524" layer="91"/>
-<label x="60.96" y="152.4" size="1.27" layer="95" font="vector" xref="yes"/>
-<wire x1="58.42" y1="152.4" x2="60.96" y2="152.4" width="0.1524" layer="91"/>
-</segment>
 <segment>
 <pinref part="U$44" gate="G$1" pin="PTD7"/>
 <wire x1="218.44" y1="53.34" x2="220.98" y2="53.34" width="0.1524" layer="91"/>
@@ -24968,8 +24534,8 @@ R_PROG=2k : I_CHG=500mA</text>
 <net name="DBG_RESET" class="0">
 <segment>
 <pinref part="J1" gate="G$1" pin="4"/>
-<wire x1="93.98" y1="157.48" x2="91.44" y2="157.48" width="0.1524" layer="91"/>
-<label x="91.44" y="157.48" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
+<wire x1="58.42" y1="160.02" x2="55.88" y2="160.02" width="0.1524" layer="91"/>
+<label x="55.88" y="160.02" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="U$44" gate="G$1" pin="RESET_B"/>
@@ -24985,8 +24551,8 @@ R_PROG=2k : I_CHG=500mA</text>
 <net name="DBG_SWDIO" class="0">
 <segment>
 <pinref part="J1" gate="G$1" pin="1"/>
-<wire x1="111.76" y1="160.02" x2="114.3" y2="160.02" width="0.1524" layer="91"/>
-<label x="114.3" y="160.02" size="1.27" layer="95" font="vector" xref="yes"/>
+<wire x1="76.2" y1="162.56" x2="78.74" y2="162.56" width="0.1524" layer="91"/>
+<label x="78.74" y="162.56" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 <segment>
 <pinref part="U$44" gate="G$1" pin="PTA3"/>
@@ -24997,8 +24563,8 @@ R_PROG=2k : I_CHG=500mA</text>
 <net name="DBG_SWDCLK" class="0">
 <segment>
 <pinref part="J1" gate="G$1" pin="3"/>
-<wire x1="111.76" y1="157.48" x2="114.3" y2="157.48" width="0.1524" layer="91"/>
-<label x="114.3" y="157.48" size="1.27" layer="95" font="vector" xref="yes"/>
+<wire x1="76.2" y1="160.02" x2="78.74" y2="160.02" width="0.1524" layer="91"/>
+<label x="78.74" y="160.02" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 <segment>
 <pinref part="U$44" gate="G$1" pin="PTA0"/>
@@ -25009,8 +24575,8 @@ R_PROG=2k : I_CHG=500mA</text>
 <net name="DBG_SWO" class="0">
 <segment>
 <pinref part="J1" gate="G$1" pin="5"/>
-<wire x1="111.76" y1="154.94" x2="114.3" y2="154.94" width="0.1524" layer="91"/>
-<label x="114.3" y="154.94" size="1.27" layer="95" font="vector" xref="yes"/>
+<wire x1="76.2" y1="157.48" x2="78.74" y2="157.48" width="0.1524" layer="91"/>
+<label x="78.74" y="157.48" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 <segment>
 <pinref part="U$44" gate="G$1" pin="PTA2"/>
