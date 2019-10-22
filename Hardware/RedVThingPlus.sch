@@ -22667,74 +22667,6 @@ We've spent an enormous amount of time creating and checking these footprints an
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="LED-RED" prefix="D" uservalue="yes">
-<description>&lt;h3&gt;Red SMD LED&lt;/h3&gt;
-&lt;p&gt;Used in manufacturing of most products at SparkFun&lt;/p&gt;
-
-&lt;p&gt;&lt;b&gt;Packages:&lt;/b&gt;
-&lt;ul&gt;&lt;li&gt;&lt;b&gt;0603&lt;/b&gt; - SMD 0603 package &lt;a href="http://docs.avagotech.com/docs/AV02-0551EN"&gt;[Product Link]&lt;/li&gt;
-&lt;li&gt;&lt;b&gt;0603 SMART&lt;/b&gt; - SMD 0603 SMART package ( more efficient and expensive)&lt;a href="http://www.osram-os.com/Graphics/XPic2/00077099_0.pdf"&gt;[Product Link]&lt;/li&gt;
-&lt;li&gt;&lt;b&gt; 1206&lt;/b&gt; - SMD1206  package &lt;a href="https://www.sparkfun.com/datasheets/DevTools/LilyPad/Q150OVS4.pdff"&gt;[Product Link]&lt;/li&gt;
-&lt;ul&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;b&gt;SparkFun Products:&lt;/b&gt;
-&lt;ul&gt;&lt;li&gt;&lt;a href=”https://www.sparkfun.com/products/821”&gt;Pro Mini 328 -5V&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=”https://www.sparkfun.com/products/12757”&gt;RedBoard&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=”https://www.sparkfun.com/products/13613”&gt;IOIO-OTG&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/p&gt;</description>
-<gates>
-<gate name="G$1" symbol="LED" x="0" y="0"/>
-</gates>
-<devices>
-<device name="0603" package="LED-0603">
-<connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="DIO-00819"/>
-<attribute name="VALUE" value="RED" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="1206" package="LED-1206">
-<connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="DIO-09912"/>
-<attribute name="VALUE" value="RED" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="0603-SMART" package="LED-0603">
-<connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="DIO-11154" constant="no"/>
-<attribute name="VALUE" value="Red" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="_HIDDENSILK" package="LED-1206-HIDDENSILK">
-<connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="DIO-09912" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="LED-BLUE" prefix="D" uservalue="yes">
 <description>&lt;h3&gt;Blue SMD LED&lt;/h3&gt;
 &lt;p&gt;Used in manufacturing of various products at SparkFun&lt;/p&gt;
@@ -25922,15 +25854,12 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <parts>
 <part name="R1" library="SparkFun-Resistors" deviceset="4.7KOHM" device="-0603-1/10W-1%" value="4.7k"/>
 <part name="GND3" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
-<part name="R2" library="SparkFun-Resistors" deviceset="10KOHM" device="-0603-1/10W-1%" value="10k"/>
-<part name="GND4" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="C10" library="SparkFun-Capacitors" deviceset="0.1UF" device="-0603-25V-(+80/-20%)" value="0.1uF"/>
 <part name="JP8" library="SparkFun" deviceset="FIDUCIAL" device="1X2"/>
 <part name="JP9" library="SparkFun" deviceset="FIDUCIAL" device="1X2"/>
 <part name="U$16" library="SparkFun-Aesthetics" deviceset="OSHW-LOGO" device="S"/>
 <part name="C12" library="SparkFun-Capacitors" deviceset="0.1UF" device="-0603-25V-(+80/-20%)" value="0.1uF"/>
 <part name="C15" library="SparkFun-Capacitors" deviceset="10UF-POLAR" device="-EIA3216-16V-10%(TANT)" value="10uF"/>
-<part name="LED2" library="SparkFun-LED" deviceset="LED-RED" device="1206" value="RED"/>
 <part name="LED1" library="SparkFun-LED" deviceset="LED-BLUE" device="0603" value="BLUE"/>
 <part name="F1" library="SparkFun-Fuses" deviceset="PPTC" device="_6V500MA" value="6V 0.5A"/>
 <part name="GND28" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
@@ -25965,7 +25894,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="GND6" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="GND7" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="FRAME1" library="SparkFun-Aesthetics" deviceset="FRAME-LETTER" device=""/>
-<part name="U$13" library="SparkFun-PowerSymbols" deviceset="5V" device=""/>
 <part name="S1" library="SparkFun-Switches" deviceset="MOMENTARY-SWITCH-SPST" device="-SMD-4.6X2.8MM" value="MOMENTARY-SWITCH-SPST-SMD-4.6X2.8MM"/>
 <part name="S2" library="SparkFun-Switches" deviceset="MOMENTARY-SWITCH-SPST" device="-SMD-4.6X2.8MM" value="MOMENTARY-SWITCH-SPST-SMD-4.6X2.8MM"/>
 <part name="D2" library="SparkFun-DiscreteSemi" deviceset="DIODE_TVS" device="" value="24V"/>
@@ -26077,13 +26005,6 @@ R_PROG=2k : I_CHG=500mA</text>
 <text x="150.622" y="177.8" size="1.778" layer="94" font="vector">VIN: 2.5-6.0V</text>
 </plain>
 <instances>
-<instance part="R2" gate="G$1" x="162.56" y="121.92" smashed="yes" rot="R90">
-<attribute name="NAME" x="161.036" y="121.92" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
-<attribute name="VALUE" x="164.084" y="121.92" size="1.778" layer="96" font="vector" rot="R90" align="top-center"/>
-</instance>
-<instance part="GND4" gate="1" x="162.56" y="101.6" smashed="yes">
-<attribute name="VALUE" x="162.56" y="101.346" size="1.778" layer="96" align="top-center"/>
-</instance>
 <instance part="C10" gate="G$1" x="68.58" y="33.02" smashed="yes" rot="MR0">
 <attribute name="NAME" x="74.676" y="35.941" size="1.778" layer="95" font="vector" rot="MR0"/>
 <attribute name="VALUE" x="77.216" y="30.861" size="1.778" layer="96" font="vector" rot="MR0"/>
@@ -26098,11 +26019,6 @@ R_PROG=2k : I_CHG=500mA</text>
 <instance part="C15" gate="G$1" x="91.44" y="35.56" smashed="yes" rot="MR0">
 <attribute name="NAME" x="98.044" y="36.195" size="1.778" layer="95" font="vector" rot="MR0"/>
 <attribute name="VALUE" x="98.044" y="31.369" size="1.778" layer="96" font="vector" rot="MR0"/>
-</instance>
-<instance part="LED2" gate="G$1" x="162.56" y="111.76" smashed="yes">
-<attribute name="PROD_ID" x="162.56" y="111.76" size="1.778" layer="96" display="off"/>
-<attribute name="NAME" x="159.131" y="107.188" size="1.778" layer="95" font="vector" rot="R90"/>
-<attribute name="VALUE" x="164.465" y="107.188" size="1.778" layer="96" font="vector" rot="R90" align="top-left"/>
 </instance>
 <instance part="F1" gate="F1" x="76.2" y="48.26" smashed="yes">
 <attribute name="NAME" x="78.105" y="51.435" size="1.778" layer="95" font="vector" align="bottom-center"/>
@@ -26180,9 +26096,6 @@ R_PROG=2k : I_CHG=500mA</text>
 </instance>
 <instance part="GND7" gate="1" x="15.24" y="91.44" smashed="yes">
 <attribute name="VALUE" x="15.24" y="91.186" size="1.778" layer="96" align="top-center"/>
-</instance>
-<instance part="U$13" gate="G$1" x="162.56" y="129.54" smashed="yes">
-<attribute name="VALUE" x="162.56" y="132.334" size="1.778" layer="96" align="bottom-center"/>
 </instance>
 <instance part="S1" gate="G$1" x="109.22" y="93.98" smashed="yes" rot="MR270">
 <attribute name="NAME" x="107.696" y="93.98" size="1.778" layer="95" font="vector" rot="MR270" align="bottom-center"/>
@@ -26347,11 +26260,6 @@ R_PROG=2k : I_CHG=500mA</text>
 <wire x1="195.58" y1="127" x2="193.04" y2="127" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<wire x1="162.56" y1="129.54" x2="162.56" y2="127" width="0.1524" layer="91"/>
-<pinref part="R2" gate="G$1" pin="2"/>
-<pinref part="U$13" gate="G$1" pin="5V"/>
-</segment>
-<segment>
 <pinref part="U3" gate="G$1" pin="IN"/>
 <wire x1="175.26" y1="157.48" x2="177.8" y2="157.48" width="0.1524" layer="91"/>
 <wire x1="177.8" y1="157.48" x2="180.34" y2="157.48" width="0.1524" layer="91"/>
@@ -26376,11 +26284,6 @@ R_PROG=2k : I_CHG=500mA</text>
 </segment>
 </net>
 <net name="GND" class="0">
-<segment>
-<wire x1="162.56" y1="104.14" x2="162.56" y2="106.68" width="0.1524" layer="91"/>
-<pinref part="GND4" gate="1" pin="GND"/>
-<pinref part="LED2" gate="G$1" pin="C"/>
-</segment>
 <segment>
 <pinref part="C16" gate="G$1" pin="2"/>
 <pinref part="GND28" gate="1" pin="GND"/>
@@ -26578,13 +26481,6 @@ R_PROG=2k : I_CHG=500mA</text>
 <pinref part="SUPPLY9" gate="G$1" pin="3.3V"/>
 <wire x1="132.08" y1="101.6" x2="134.62" y2="101.6" width="0.1524" layer="91"/>
 <wire x1="134.62" y1="101.6" x2="134.62" y2="104.14" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$2" class="0">
-<segment>
-<wire x1="162.56" y1="116.84" x2="162.56" y2="114.3" width="0.1524" layer="91"/>
-<pinref part="R2" gate="G$1" pin="1"/>
-<pinref part="LED2" gate="G$1" pin="A"/>
 </segment>
 </net>
 <net name="VUSB" class="0">
