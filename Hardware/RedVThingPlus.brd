@@ -13819,10 +13819,10 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <element name="U$68" library="buzzard_labels (3)" package="RESET1" value="" x="7.239" y="5.715" rot="R270"/>
 <element name="U$69" library="buzzard_labels (3)" package="WAKE0" value="" x="7.112" y="23.495" rot="R270"/>
 <element name="U$45" library="seggerlogo#png" package="SEGGERLOGO#PNG" value="" x="10.541" y="16.256" rot="MR90"/>
-<element name="U$38" library="buzzard_labels (4)" package="CHG0" value="" x="16.51" y="3.556"/>
+<element name="U$38" library="buzzard_labels (4)" package="CHG0" value="" x="16.4645" y="3.3025"/>
 <element name="I2C" library="SparkFun-Jumpers" package="SMT-JUMPER_3_NO_NO-SILK" value="JUMPER-SMT_3_NO_NO-SILK" x="57.15" y="17.78" rot="MR90"/>
 <element name="U$50" library="buzzard_labels (8)" package="I2C_______0" value="" x="57.15" y="13.0175" rot="MR90"/>
-<element name="U$46" library="buzzard_labels (9)" package="50" value="" x="38.735" y="3.302"/>
+<element name="U$46" library="buzzard_labels (9)" package="50" value="" x="38.216" y="3.0325"/>
 <element name="LOGO2" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.2" value="SFE_LOGO_FLAME.2_INCH" x="14.859" y="12.1285" rot="R270"/>
 <element name="U$13" library="Red#V_thing_plus_board_silk#02#jpg" package="RED#V_THING_PLUS_BOARD_SILK#02#JPG" value="" x="19.431" y="11.557" rot="MR90"/>
 <element name="U$42" library="Red#V_thing_plus_board_silk#01#jpg" package="RED#V_THING_PLUS_BOARD_SILK#01#JPG" value="" x="21.463" y="11.4935" rot="MR90"/>
