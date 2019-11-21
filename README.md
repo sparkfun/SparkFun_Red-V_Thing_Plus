@@ -19,7 +19,7 @@ Repository Contents
 Documentation
 --------------
 
-* **[Hookup Guide](https://learn.sparkfun.com/tutorials/red-v-redboard-hookup-guide)** - Basic hookup guide for the <PRODUCT NAME>.
+* **[Hookup Guide](https://learn.sparkfun.com/tutorials/red-v-redboard-hookup-guide)** - Basic hookup guide for the SparkFun RED-V Thing Plus.
 
 License Information
 -------------------
