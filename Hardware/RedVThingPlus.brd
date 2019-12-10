@@ -13659,10 +13659,10 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <attribute name="PROD_ID" value="CAP-00810" x="48.895" y="5.334" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="48.895" y="6.096" size="0.6096" layer="27" font="vector" ratio="20" rot="R180" align="top-center"/>
 </element>
-<element name="R8" library="SparkFun-Resistors" package="0603" value="100k" x="48.895" y="6.858" smashed="yes">
+<element name="R8" library="SparkFun-Resistors" package="0603" value="100" x="48.895" y="6.858" smashed="yes">
 <attribute name="NAME" x="49.53" y="7.62" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
-<attribute name="PROD_ID" value="RES-07828" x="48.895" y="6.858" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="48.895" y="6.096" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
+<attribute name="PROD_ID" value="RES-07863" x="48.895" y="6.858" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" value="100" x="48.895" y="6.096" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
 </element>
 <element name="R9" library="SparkFun-Resistors" package="0603" value="4.7k" x="53.594" y="17.78" smashed="yes" rot="R270">
 <attribute name="NAME" x="54.356" y="17.78" size="0.6096" layer="25" font="vector" ratio="20" rot="R270" align="bottom-center"/>
