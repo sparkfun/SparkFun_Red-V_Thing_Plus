@@ -3,7 +3,7 @@ SparkFun RED-V Thing Plus
 
 [![SparkFun RED-V Thing Plus](https://cdn.sparkfun.com/assets/parts/1/4/4/0/8/15799-SparkFun_RED-V_Thing_Plus_-_SiFive_RISC-V_FE310_SoC-01.jpg)](https://www.sparkfun.com/products/15799)
 
-[*SparkFun RED-V Thing Plus (DEV-15799)](https://www.sparkfun.com/products/15799)*
+*[SparkFun RED-V Thing Plus (DEV-15799)](https://www.sparkfun.com/products/15799)*
 
 The SparkFun RED-V (pronounced “red-five”) Thing Plus is a low-cost, development board in our popular Thing Plus footprint and adds in the Freedom E310 core and RISC-V instruction set architecture (ISA). What sets the RED-V Thing Plus apart is the completely open-source approach from hardware to ISA. That means anyone can make full use the microcontroller without requiring royalties, licenses, or non-disclosure agreements.
 
